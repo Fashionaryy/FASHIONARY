@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5e8c8; /* Matches the beige background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.logo-circle {
+  width: 150px;
+  height: 150px;
+  background-color: #334d2f; /* Dark green */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.logo-circle img {
+  width: 120%;
+  height: auto;
+}
+
+.logo-text h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #334d2f;
+  margin: 0;
+}
+
+.logo-text p {
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.2rem;
+  color: #6b5b36;
+  margin: 0;
+  margin-top: 5px;
+}
