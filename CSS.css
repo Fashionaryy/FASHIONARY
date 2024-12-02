@@ -7,11 +7,7 @@
 }
 
 /* Colors */
-:root {
-  --dark-green: #657552; /* soft yellow*/
-  --soft-yellow: #e7d78a; /* dark green */
-  --background-color: #fafafa;
-}
+
 
 /* Body Styling */
 body {
@@ -25,7 +21,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1em 2em;
-  background-color: var(--soft yellow);
+  background-color: #e7d78a;
 }
 .logo {
   display: flex;
